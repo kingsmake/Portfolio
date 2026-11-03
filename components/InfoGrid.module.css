@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.box {
+    flex: 1 1 var(--card-min);
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.box:hover {
+    border-color: var(--main_color);
+    transform: scale(1.02);
+}
+
+.box i {
+    font-size: 7rem;
+    color: var(--main_color);
+}
+
+.box h3 {
+    font-size: 2.6rem;
+}
+
+.box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 0;
+}
+
+.tags {
+    margin: 1.5rem 0 1rem;
+}

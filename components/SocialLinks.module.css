@@ -1,0 +1,20 @@
+.social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main_color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main_color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: background-color .5s ease, color .5s ease, box-shadow .5s ease;
+}
+
+.social a:hover {
+    background-color: var(--main_color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main_color);
+}

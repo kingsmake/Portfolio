@@ -1,0 +1,70 @@
+.about {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+}
+
+.img img {
+    width: 90vw;
+    height: auto;
+    margin-top: 4rem;
+}
+
+.content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.content h3 {
+    font-size: 2.6rem;
+}
+
+.content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.skills,
+.achievements {
+    padding-bottom: 7rem;
+}
+
+.skills h2,
+.achievements h2 {
+    margin-bottom: 3rem;
+}
+
+.achievements {
+    min-height: auto;
+}
+
+@media (min-width: 366px) {
+    .img img {
+        width: 70vw;
+    }
+}
+
+@media (min-width: 769px) {
+    .about {
+        flex-direction: row;
+    }
+
+    .img img {
+        width: 35vw;
+        margin-top: 0;
+    }
+
+    .skills h2,
+    .achievements h2 {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .skills {
+        padding-bottom: 2rem;
+    }
+}

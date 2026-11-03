@@ -1,0 +1,33 @@
+.portfolio {
+    background: var(--second-bg-color);
+    padding-bottom: 7rem;
+}
+
+.portfolio h2 {
+    margin-bottom: 3rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: stretch;
+    gap: 2.5rem;
+}
+
+@media (min-width: 618px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 769px) {
+    .portfolio h2 {
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .portfolio {
+        padding-bottom: 2rem;
+    }
+}
